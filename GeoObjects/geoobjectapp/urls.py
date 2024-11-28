@@ -1,5 +1,5 @@
 from django.urls import path
 
-from .views import api_view, submitData
+from .views import GeoApiView
 
-urlpatterns = [path('geo/', api_view(submitData)), ]
+urlpatterns = [path('geo/', GeoApiView.as_view(), name='geo_data')]
