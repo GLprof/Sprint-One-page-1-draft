@@ -15,4 +15,5 @@ class GeogrObjectSerializer(serializers.ModelSerializer):
             'user_name',
             'user_email',
             'user_phone',
+            'status',
             ]
