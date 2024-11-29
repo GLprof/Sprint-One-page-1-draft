@@ -2,7 +2,6 @@ from rest_framework import status
 from rest_framework.views import APIView
 from rest_framework.response import Response
 
-from .models import GeogrObject
 from .serializers import GeogrObjectSerializer
 
 class GeoApiView(APIView):
